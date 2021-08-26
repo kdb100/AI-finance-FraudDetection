@@ -1,14 +1,12 @@
 # Overview
 
-This is the code for [this](https://www.youtube.com/watch?v=UNgdIkuVC6g) video on Youtube by Siraj Raval. Fraud Detection model based on anonymized credit card transactions
+This is an unsupervised machine learning Fraud Detection model based on anonymized credit card transactions.
 
 ## Getting started
 In order to set up a microservice exposing a fraud detection POST endpoint, follow these steps:
 
-1. get the code from the repository
-```
-git clone https://github.com/cloudacademy/fraud-detection.git 
-```
+1. Clone the repository
+
 2. [download the dataset](https://clouda-datasets.s3.amazonaws.com/creditcard.csv.zip) that will be used to train a transaction classifier. Unzip it and put the content (creditcard.csv) under folder data
 
 3. create a virtual environment (named e.g. fraud-detection), activate it and retrieve all needed python packages
@@ -59,6 +57,3 @@ nosetests
 ```
 from the repo root
 
-## Credits
-
-Credits for this code go to [cloudacademy](https://github.com/cloudacademy/fraud-detection). I've merely created a wrapper to get people started. 
